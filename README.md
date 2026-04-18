@@ -1,4 +1,15 @@
----
+# 🟡 Blinkit Sales Dashboard — Power BI
+
+A single-page executive overview dashboard built in **Microsoft Power BI** that analyzes sales performance, customer feedback, order trends, and delivery operations for **Blinkit** — India's quick-commerce grocery delivery platform.
+
+## 📊 Dashboard Preview
+
+> Open `sales_dashboard_of_blinkit.pbix` in Power BI Desktop to interact with the full dashboard.
+
+## 📁 Project Structure
+
+    sales_dashboard_of_blinkit.pbix   # Main Power BI report file
+    README.md                         # Project documentation
 
 ## 🗂️ Data Model
 
@@ -10,8 +21,6 @@ The report is built on **four core tables**:
 | `blinkit_order_items` | Line-item details including product quantity and revenue per order |
 | `blinkit_customer_feedback` | Customer ratings and sentiment scores per order |
 | `blinkit_delivery_performance` | Delivery status and performance metrics per order |
-
----
 
 ## 📈 Dashboard Page: Executive Overview
 
@@ -35,8 +44,6 @@ The report contains a single executive-level page with the following visuals:
 | 🔡 Word Cloud | Customer feedback keyword analysis (custom visual) |
 | 🔽 Slicer | Interactive month-name filter |
 
----
-
 ## 🔑 Key Metrics Tracked
 
 - `order_total` — Revenue per order
@@ -47,16 +54,12 @@ The report contains a single executive-level page with the following visuals:
 - `delivery_status` — On-time, delayed, failed, etc.
 - `sentiment` — Positive / Neutral / Negative classification
 
----
-
 ## 🛠️ Tools & Technologies
 
 - **Microsoft Power BI Desktop** — Report building and data modelling
 - **DAX (Data Analysis Expressions)** — Measures and calculated columns
 - **Power Query (M)** — Data transformation and loading
 - **Custom Visual: Word Cloud** — `WordCloud1447959067750` from AppSource
-
----
 
 ## 🚀 Getting Started
 
@@ -70,8 +73,6 @@ The report contains a single executive-level page with the following visuals:
 4. The dashboard will load with all visuals and data pre-embedded
 5. Use the **Month Name slicer** to filter the view by time period
 
----
-
 ## 💡 Insights You Can Derive
 
 - Which months had the highest order volumes and revenue?
@@ -80,15 +81,11 @@ The report contains a single executive-level page with the following visuals:
 - What is the overall customer sentiment and average rating?
 - Which keywords appear most frequently in customer feedback?
 
----
-
 ## 📌 Notes
 
 - The data is embedded directly inside the `.pbix` file — no external database connection required.
 - The Word Cloud is a **custom visual** sourced from Microsoft AppSource; it may prompt for permission on first load.
 - This dashboard was built for **analytical and portfolio purposes** using simulated/sample Blinkit data.
-
----
 
 ## 🙌 Acknowledgements
 
